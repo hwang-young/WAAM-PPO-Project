@@ -1,0 +1,63 @@
+# Shared fixed three-robot cell/process template.
+simulation:
+  max_time_step_s: 0.1
+  max_tcp_step_mm: 5.0
+  event_merge_gap_s: 0.2
+  batch_size: 10000
+robots:
+  - id: 1
+    base_xyz_mm: [-1400.0, 0.0, 0.0]
+    home_xyz_mm: [-1000.0, 0.0, 1000.0]
+    tcp_radius_mm: 100.0
+    arm_envelope_radius_mm: 100.0
+    xy_reach_radius_mm: 1500.0
+  - id: 2
+    base_xyz_mm: [700.0, 1212.4356, 0.0]
+    home_xyz_mm: [500.0, 866.025404, 1000.0]
+    tcp_radius_mm: 100.0
+    arm_envelope_radius_mm: 100.0
+    xy_reach_radius_mm: 1500.0
+  - id: 3
+    base_xyz_mm: [700.0, -1212.4356, 0.0]
+    home_xyz_mm: [500.0, -866.025404, 1000.0]
+    tcp_radius_mm: 100.0
+    arm_envelope_radius_mm: 100.0
+    xy_reach_radius_mm: 1500.0
+process:
+  deposition_speed_mm_s: 8.0
+  travel_speed_mm_s: 150.0
+  layer_height_mm: 2.0
+  bead_width_mm: 8.0
+  build_plane_z_mm: 0.0
+  tcp_z_reference: center
+  safe_travel_z_mm: 1000.0
+  arc_on_time_s: 1.0
+  arc_off_time_s: 1.0
+workspace:
+  shape: circle_xy
+  center_xy_mm: [0.0, 0.0]
+  radius_mm: 700.0
+collision:
+  check_arm_envelope: true
+  arm_clearance_mm: 50.0
+  check_tcp_radius: true
+  touching_is_collision: true
+  geometry_epsilon_mm: 1.0e-06
+validation:
+  wait_position_tolerance_mm: 0.001
+  layer_z_tolerance_mm: 0.25
+  speed_relative_tolerance: 0.1
+  fail_on_speed_violation: true
+  require_watertight_target: true
+  attempt_target_repair: true
+  target_volume_discrepancy_warning_ratio: 0.02
+shape_validation:
+  polygon_buffer_resolution: 8
+  polygon_snap_tolerance_mm: 0.0001
+  minimum_overall_coverage: 0.80
+  maximum_overall_overfill_ratio: 0.30
+  # NCO has no equivalent IoU thresholds; retain Validator defaults.
+  minimum_overall_iou: 0.9
+  minimum_layer_iou: 0.8
+  maximum_failed_layer_ratio: 0.05
+  area_epsilon_mm2: 1.0e-06

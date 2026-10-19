@@ -1,0 +1,44 @@
+[
+  {
+    "model": "01",
+    "status": "PASS",
+    "makespan_s": 1032.634165335,
+    "total_wall_s": 52.156,
+    "trajectory_sha256": "16676d6dc00d55704610082c50dc6c497069046f479d2ff13179c73a5baf4cc5"
+  },
+  {
+    "model": "02",
+    "status": "PASS",
+    "makespan_s": 2120.236813259,
+    "total_wall_s": 63.875,
+    "trajectory_sha256": "dfc3d77c888d2b668434ebf2c7c920dc6ba4833224ad065d020dfdea1e6c0398"
+  },
+  {
+    "model": "03",
+    "status": "PASS",
+    "makespan_s": 1666.187145502,
+    "total_wall_s": 48.766,
+    "trajectory_sha256": "04c261973d813a8c7386064ac67b4394f5ff17f3c3c0dc89f1a6fb8086d6fba5"
+  },
+  {
+    "model": "04",
+    "status": "PASS",
+    "makespan_s": 60548.9178691,
+    "total_wall_s": 205.266,
+    "trajectory_sha256": "5c96d196f58355af1d9beab427006da58b4fbb3135cf8c0d4c1bcea7619e6b2d"
+  },
+  {
+    "model": "05",
+    "status": "PASS",
+    "makespan_s": 346881.567727479,
+    "total_wall_s": 1595.015,
+    "trajectory_sha256": "8bdd7617a70da032d33b35a189f213614c32bbf24a783da0ba41c2a9488bc44f"
+  },
+  {
+    "model": "06",
+    "status": "PASS",
+    "makespan_s": 6705.466048158,
+    "total_wall_s": 81.313,
+    "trajectory_sha256": "170c738d21ace02bae9344b3ac83cf0e78ee17568d2d93f2915f932ae7eeff52"
+  }
+]

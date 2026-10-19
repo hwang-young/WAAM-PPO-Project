@@ -1,0 +1,533 @@
+[
+  {
+    "model": "01",
+    "input_dir": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\tests\\01",
+    "status": "PASS",
+    "generation_wall_s": 11.984,
+    "validator_wall_s": 20.531,
+    "refinement_wall_s": 19.532,
+    "total_wall_s": 52.156,
+    "makespan_s": 1032.634165335,
+    "selected_mode": "SERIAL",
+    "selected_candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\01\\selected_pass",
+    "variants": [
+      {
+        "name": "serial_two_half",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\01\\generated\\serial_two_half",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 8.687,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 5.625,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 1045.203496988,
+          "passed": true
+        }
+      },
+      {
+        "name": "serial_three_zone",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\01\\generated\\serial_three_zone",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 3.297,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 4.484,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 1150.560255117,
+          "passed": true
+        }
+      }
+    ],
+    "refinement": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 19.532,
+      "stderr_tail": "",
+      "optimizer_status": "NEW_PASS_BETTER",
+      "candidate_revalidation": {
+        "status": "FINISHED",
+        "exit_code": 0,
+        "wall_s": 5.156,
+        "stderr_tail": "",
+        "report_status": "PASS",
+        "failure_reasons": [],
+        "makespan_s": 1032.634165335,
+        "passed": true
+      }
+    },
+    "error": null,
+    "input_hashes": {
+      "target_stl_sha256": "c82bfb68b3ee385230db769eab62236205de560ed85abe3ddf3a09d910e4e146",
+      "config_yaml_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    "initial_pass_s": 1045.203496988,
+    "selected_method": "collision_aware_reorder",
+    "final_validation": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 5.266,
+      "stderr_tail": "",
+      "report_status": "PASS",
+      "failure_reasons": [],
+      "makespan_s": 1032.634165335,
+      "passed": true
+    },
+    "simultaneous_deposition_s": 0.0
+  },
+  {
+    "model": "02",
+    "input_dir": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\tests\\02",
+    "status": "PASS",
+    "generation_wall_s": 12.078,
+    "validator_wall_s": 28.781,
+    "refinement_wall_s": 22.906,
+    "total_wall_s": 63.875,
+    "makespan_s": 2120.236813259,
+    "selected_mode": "SERIAL",
+    "selected_candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\02\\selected_pass",
+    "variants": [
+      {
+        "name": "serial_two_half",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\02\\generated\\serial_two_half",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 6.359,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 6.891,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 2132.822559502,
+          "passed": true
+        }
+      },
+      {
+        "name": "serial_three_zone",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\02\\generated\\serial_three_zone",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 5.719,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 7.984,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 2284.688891412,
+          "passed": true
+        }
+      }
+    ],
+    "refinement": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 22.906,
+      "stderr_tail": "",
+      "optimizer_status": "NEW_PASS_BETTER",
+      "candidate_revalidation": {
+        "status": "FINISHED",
+        "exit_code": 0,
+        "wall_s": 6.766,
+        "stderr_tail": "",
+        "report_status": "PASS",
+        "failure_reasons": [],
+        "makespan_s": 2120.236813259,
+        "passed": true
+      }
+    },
+    "error": null,
+    "input_hashes": {
+      "target_stl_sha256": "1262d0f4ca60a7b0920afc80e9ca77a88f45c356d96b120e4df05787e3582962",
+      "config_yaml_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    "initial_pass_s": 2132.822559502,
+    "selected_method": "collision_aware_reorder",
+    "final_validation": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 7.14,
+      "stderr_tail": "",
+      "report_status": "PASS",
+      "failure_reasons": [],
+      "makespan_s": 2120.236813259,
+      "passed": true
+    },
+    "simultaneous_deposition_s": 0.0
+  },
+  {
+    "model": "03",
+    "input_dir": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\tests\\03",
+    "status": "PASS",
+    "generation_wall_s": 8.171,
+    "validator_wall_s": 20.202,
+    "refinement_wall_s": 20.297,
+    "total_wall_s": 48.766,
+    "makespan_s": 1666.187145502,
+    "selected_mode": "PARALLEL",
+    "selected_candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\03\\selected_pass",
+    "variants": [
+      {
+        "name": "serial_two_half",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\03\\generated\\serial_two_half",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 4.218,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 5.109,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 1686.113655647,
+          "passed": true
+        }
+      },
+      {
+        "name": "serial_three_zone",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\03\\generated\\serial_three_zone",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 3.953,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 5.078,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 1789.255721132,
+          "passed": true
+        }
+      }
+    ],
+    "refinement": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 20.297,
+      "stderr_tail": "",
+      "optimizer_status": "NEW_PASS_BETTER",
+      "candidate_revalidation": {
+        "status": "FINISHED",
+        "exit_code": 0,
+        "wall_s": 5.093,
+        "stderr_tail": "",
+        "report_status": "PASS",
+        "failure_reasons": [],
+        "makespan_s": 1666.187145502,
+        "passed": true
+      }
+    },
+    "error": null,
+    "input_hashes": {
+      "target_stl_sha256": "f5d5dcd1b9126f4a9b104f7913487ab47dc5304b9337a19d0bac284c02326769",
+      "config_yaml_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    "initial_pass_s": 1686.113655647,
+    "selected_method": "collision_aware_reorder",
+    "final_validation": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 4.922,
+      "stderr_tail": "",
+      "report_status": "PASS",
+      "failure_reasons": [],
+      "makespan_s": 1666.187145502,
+      "passed": true
+    },
+    "simultaneous_deposition_s": 2.9706544929999694
+  },
+  {
+    "model": "04",
+    "input_dir": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\tests\\04",
+    "status": "PASS",
+    "generation_wall_s": 35.141000000000005,
+    "validator_wall_s": 124.968,
+    "refinement_wall_s": 44.766,
+    "total_wall_s": 205.266,
+    "makespan_s": 60548.9178691,
+    "selected_mode": "SERIAL",
+    "selected_candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\04\\selected_pass",
+    "variants": [
+      {
+        "name": "serial_two_half",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\04\\generated\\serial_two_half",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 16.969,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "PROCESS_ERROR",
+          "exit_code": 1,
+          "wall_s": 40.453,
+          "stderr_tail": "",
+          "report_status": "FAIL",
+          "failure_reasons": [
+            "ROBOT_XY_REACH: R2 maximum TCP XY distance 1524.975 mm exceeds configured XY Reach radius 1500.000 mm.",
+            "ROBOT_XY_REACH: R3 maximum TCP XY distance 1524.975 mm exceeds configured XY Reach radius 1500.000 mm."
+          ],
+          "makespan_s": 59798.948126885,
+          "passed": false
+        }
+      },
+      {
+        "name": "serial_three_zone",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\04\\generated\\serial_three_zone",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 18.172,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 42.187,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 60548.9178691,
+          "passed": true
+        }
+      }
+    ],
+    "refinement": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 44.766,
+      "stderr_tail": "",
+      "optimizer_status": "KEEP_BASELINE_PASS_NO_GAIN"
+    },
+    "error": null,
+    "input_hashes": {
+      "target_stl_sha256": "dc8ec2acec88920ae367ea4dc43bca71c65e0a2e7f2b00dc6efd2eca4742e56c",
+      "config_yaml_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    "initial_pass_s": 60548.9178691,
+    "selected_method": "serial_three_zone",
+    "final_validation": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 42.328,
+      "stderr_tail": "",
+      "report_status": "PASS",
+      "failure_reasons": [],
+      "makespan_s": 60548.9178691,
+      "passed": true
+    },
+    "simultaneous_deposition_s": 0.0
+  },
+  {
+    "model": "05",
+    "input_dir": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\tests\\05",
+    "status": "PASS",
+    "generation_wall_s": 258.25,
+    "validator_wall_s": 1032.797,
+    "refinement_wall_s": 300.047,
+    "total_wall_s": 1595.015,
+    "makespan_s": 346881.567727479,
+    "selected_mode": "SERIAL",
+    "selected_candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\05\\selected_pass",
+    "variants": [
+      {
+        "name": "serial_two_half",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\05\\generated\\serial_two_half",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 123.625,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "PROCESS_ERROR",
+          "exit_code": 1,
+          "wall_s": 353.594,
+          "stderr_tail": "",
+          "report_status": "FAIL",
+          "failure_reasons": [
+            "ROBOT_XY_REACH: R2 maximum TCP XY distance 1619.122 mm exceeds configured XY Reach radius 1500.000 mm.",
+            "ROBOT_XY_REACH: R3 maximum TCP XY distance 1619.122 mm exceeds configured XY Reach radius 1500.000 mm."
+          ],
+          "makespan_s": 343795.898033527,
+          "passed": false
+        }
+      },
+      {
+        "name": "serial_three_zone",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\05\\generated\\serial_three_zone",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 134.625,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 329.89,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 346881.567727479,
+          "passed": true
+        }
+      }
+    ],
+    "refinement": {
+      "status": "TIMEOUT",
+      "exit_code": null,
+      "wall_s": 300.047,
+      "stderr_tail": ""
+    },
+    "error": null,
+    "input_hashes": {
+      "target_stl_sha256": "c7ef0f6330b2da30cc1671f5e91471074fb1e6ca7e40027193380d6ef7ccad41",
+      "config_yaml_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    "initial_pass_s": 346881.567727479,
+    "selected_method": "serial_three_zone",
+    "final_validation": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 349.313,
+      "stderr_tail": "",
+      "report_status": "PASS",
+      "failure_reasons": [],
+      "makespan_s": 346881.567727479,
+      "passed": true
+    },
+    "simultaneous_deposition_s": 0.0
+  },
+  {
+    "model": "06",
+    "input_dir": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\tests\\06",
+    "status": "PASS",
+    "generation_wall_s": 9.312999999999999,
+    "validator_wall_s": 35.204,
+    "refinement_wall_s": 36.734,
+    "total_wall_s": 81.313,
+    "makespan_s": 6705.466048158,
+    "selected_mode": "SERIAL",
+    "selected_candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\06\\selected_pass",
+    "variants": [
+      {
+        "name": "serial_two_half",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\06\\generated\\serial_two_half",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 4.313,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 7.922,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 6718.605381491,
+          "passed": true
+        }
+      },
+      {
+        "name": "serial_three_zone",
+        "source": "GENERATED_FROM_STL_THIS_RUN",
+        "candidate": "C:\\Users\\IT\\Downloads\\WAAM_Validator-main\\ppo_project\\waam_from_stl_v11\\report_all_fresh_v11\\06\\generated\\serial_three_zone",
+        "generation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 5.0,
+          "stderr_tail": ""
+        },
+        "validation": {
+          "status": "FINISHED",
+          "exit_code": 0,
+          "wall_s": 7.547,
+          "stderr_tail": "",
+          "report_status": "PASS",
+          "failure_reasons": [],
+          "makespan_s": 6718.605381491,
+          "passed": true
+        }
+      }
+    ],
+    "refinement": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 36.734,
+      "stderr_tail": "",
+      "optimizer_status": "NEW_PASS_BETTER",
+      "candidate_revalidation": {
+        "status": "FINISHED",
+        "exit_code": 0,
+        "wall_s": 12.172,
+        "stderr_tail": "",
+        "report_status": "PASS",
+        "failure_reasons": [],
+        "makespan_s": 6705.466048158,
+        "passed": true
+      }
+    },
+    "error": null,
+    "input_hashes": {
+      "target_stl_sha256": "0b56e06778553992d12fb47031fff6dc12735d79bdcb49c39a7bb5c96eef12f1",
+      "config_yaml_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    "initial_pass_s": 6718.605381491,
+    "selected_method": "collision_aware_reorder",
+    "final_validation": {
+      "status": "FINISHED",
+      "exit_code": 0,
+      "wall_s": 7.563,
+      "stderr_tail": "",
+      "report_status": "PASS",
+      "failure_reasons": [],
+      "makespan_s": 6705.466048158,
+      "passed": true
+    },
+    "simultaneous_deposition_s": 0.0
+  }
+]

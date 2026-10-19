@@ -1,0 +1,7 @@
+﻿model,status,makespan_s,makespan_DD_HH_MM_SS,total_wall_s,generation_wall_s,validator_wall_s,refinement_wall_s_includes_own_validation,mode,selected_candidate,reason
+01,PASS,1032.634165335,00:00:17:13,52.156,11.984,20.531,19.532,SERIAL,C:\Users\IT\Downloads\WAAM_Validator-main\ppo_project\waam_from_stl_v11\report_all_fresh_v11\01\selected_pass,
+02,PASS,2120.236813259,00:00:35:20,63.875,12.078,28.781,22.906,SERIAL,C:\Users\IT\Downloads\WAAM_Validator-main\ppo_project\waam_from_stl_v11\report_all_fresh_v11\02\selected_pass,
+03,PASS,1666.187145502,00:00:27:46,48.766,8.171,20.202,20.297,PARALLEL,C:\Users\IT\Downloads\WAAM_Validator-main\ppo_project\waam_from_stl_v11\report_all_fresh_v11\03\selected_pass,
+04,PASS,60548.9178691,00:16:49:09,205.266,35.141,124.968,44.766,SERIAL,C:\Users\IT\Downloads\WAAM_Validator-main\ppo_project\waam_from_stl_v11\report_all_fresh_v11\04\selected_pass,
+05,PASS,346881.567727479,04:00:21:22,1595.015,258.25,1032.797,300.047,SERIAL,C:\Users\IT\Downloads\WAAM_Validator-main\ppo_project\waam_from_stl_v11\report_all_fresh_v11\05\selected_pass,
+06,PASS,6705.466048158,00:01:51:45,81.313,9.313,35.204,36.734,SERIAL,C:\Users\IT\Downloads\WAAM_Validator-main\ppo_project\waam_from_stl_v11\report_all_fresh_v11\06\selected_pass,
